@@ -1,2 +1,2 @@
-# Design-and-Analysis-of-Algorithms-Assignment-2
-by Nursultan and Temirlan. SE-2402
+# DAA-Assignment-2
+By Nursultan and Temirlan. SE2402

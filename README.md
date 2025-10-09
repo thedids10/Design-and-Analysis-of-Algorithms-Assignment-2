@@ -29,7 +29,7 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/thedids10/Design-and-Analysis-of-Algorithms-Assignment-2.git
    cd Design-and-Analysis-of-Algorithms-Assignment-2
    ```
 

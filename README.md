@@ -9,11 +9,102 @@
 ---
 
 ## Table of Contents
-1. [Algorithm Overview](#algorithm-overview)
-2. [Complexity Analysis](#complexity-analysis)
-3. [Code Review](#code-review)
-4. [Empirical Results](#empirical-results)
-5. [Conclusion](#conclusion)
+1. [How to Setup](#how-to-setup)
+2. [Algorithm Overview](#algorithm-overview)
+3. [Complexity Analysis](#complexity-analysis)
+4. [Code Review](#code-review)
+5. [Empirical Results](#empirical-results)
+6. [Conclusion](#conclusion)
+
+---
+
+## How to Setup
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Maven 3.6 or higher
+- Git (for cloning the repository)
+
+### Installation Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd Design-and-Analysis-of-Algorithms-Assignment-2
+   ```
+
+2. **Verify Java Installation**
+   ```bash
+   java -version
+   javac -version
+   ```
+
+3. **Verify Maven Installation**
+   ```bash
+   mvn -version
+   ```
+
+4. **Build the Project**
+   ```bash
+   mvn clean compile
+   ```
+
+5. **Run Tests**
+   ```bash
+   mvn test
+   ```
+
+6. **Run Benchmarks**
+   ```bash
+   mvn exec:java -Dexec.mainClass="cli.BenchmarkRunner"
+   ```
+
+### Project Structure
+```
+src/
+├── main/java/
+│   ├── algorithms/
+│   │   ├── MaxHeap.java
+│   │   └── MinHeap.java
+│   ├── cli/
+│   │   └── BenchmarkRunner.java
+│   └── metrics/
+│       └── PerformanceTracker.java
+└── test/java/
+    └── algorithms/
+        ├── MaxHeapTest.java
+        └── MinHeapTest.java
+```
+
+### Running Individual Components
+
+**Run MaxHeap Tests:**
+```bash
+mvn test -Dtest=MaxHeapTest
+```
+
+**Run MinHeap Tests:**
+```bash
+mvn test -Dtest=MinHeapTest
+```
+
+**Run Performance Benchmarks:**
+```bash
+mvn exec:java -Dexec.mainClass="cli.BenchmarkRunner"
+```
+
+### Troubleshooting
+
+**Common Issues:**
+1. **Java Version Mismatch**: Ensure JDK 8+ is installed and JAVA_HOME is set
+2. **Maven Not Found**: Install Maven and add it to your PATH
+3. **Compilation Errors**: Run `mvn clean compile` to rebuild
+4. **Test Failures**: Check that all dependencies are properly installed
+
+**System Requirements:**
+- Minimum 2GB RAM
+- 100MB free disk space
+- Internet connection for Maven dependencies
 
 ---
 

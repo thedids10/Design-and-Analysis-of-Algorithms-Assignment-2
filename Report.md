@@ -378,7 +378,7 @@ public class EnhancedPerformanceTracker {
 
 Both students demonstrate strong understanding of heap data structures and effective implementation skills. The code quality is high with room for optimization in merge operations and performance testing. The collaborative approach shows good software engineering practices with clear separation of responsibilities.
 
-**Overall Grade: 90
+**Overall Grade: 90**
 - Excellent algorithmic understanding
 - Good code structure and organization
 - Room for improvement in optimization and testing

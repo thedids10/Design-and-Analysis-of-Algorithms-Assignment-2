@@ -17,7 +17,7 @@
 
 ## Nursultan's Analysis of Temirlan's Code
 
-### Code Review: MinHeap.java (by Temirlan)
+### Code Review: MinHeap.java (review by Nursultan)
 
 #### Algorithm Overview
 Temirlan's MinHeap implementation demonstrates a solid understanding of heap data structures. The implementation uses an ArrayList as the underlying data structure and maintains the min-heap property where parent nodes are always smaller than or equal to their children.
@@ -101,7 +101,7 @@ if (left < heap.size()) {
 2. **Memory Pooling**: Pre-allocate memory for expected operations
 3. **Lazy Evaluation**: Defer heap property maintenance for bulk operations
 
-### Code Review: MaxHeapTest.java (by Temirlan)
+### Code Review: MaxHeapTest.java (review by Nursultan)
 
 #### Test Coverage Analysis
 Temirlan's test suite demonstrates good understanding of heap operations and edge cases.
@@ -142,7 +142,7 @@ void testLargeDataset() {
 
 ## Temirlan's Analysis of Nursultan's Code
 
-### Code Review: MaxHeap.java (by Nursultan)
+### Code Review: MaxHeap.java (review by Temirlan)
 
 #### Algorithm Overview
 Nursultan's MaxHeap implementation shows excellent understanding of heap data structures. The implementation mirrors the MinHeap structure but maintains the max-heap property where parent nodes are always greater than or equal to their children.
@@ -209,7 +209,7 @@ The heapify method is nearly identical to MinHeap version, suggesting opportunit
 2. **Memory Optimization**: Consider array-based implementation
 3. **Enhanced Error Handling**: Add more specific exception types
 
-### Code Review: MinHeapTest.java (by Nursultan)
+### Code Review: MinHeapTest.java (review by Temirlan)
 
 #### Test Coverage Analysis
 Nursultan's test suite is more comprehensive than the MaxHeap tests, demonstrating good testing practices.
@@ -252,7 +252,7 @@ void testInvalidDecreaseKey() {
 }
 ```
 
-### Code Review: BenchmarkRunner.java (by Nursultan)
+### Code Review: BenchmarkRunner.java (review by Temirlan)
 
 #### Benchmark Implementation Analysis
 Nursultan's benchmark implementation demonstrates good understanding of performance testing methodologies.
@@ -285,7 +285,7 @@ while (!maxHeap.isEmpty()) {
 tracker.stop();
 ```
 
-### Code Review: PerformanceTracker.java (by Nursultan)
+### Code Review: PerformanceTracker.java (review by both Students)
 
 #### Performance Measurement Analysis
 The PerformanceTracker implementation is simple but effective for basic performance measurement.
